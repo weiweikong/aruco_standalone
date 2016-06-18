@@ -11,4 +11,22 @@ ArUco markers were improved by interspersing them inside a checkerboard called C
 
 The smallest ChArUco board is 5 checkers and 4 markers called a "Diamond Marker".
 
+Status
+=================
+- CMakeLists only generate `create_marker.cpp` to create different kinds of tag.
+- For example
+```
+./create_marker -d=16 --id=26 --ms=400 --bb=2
+```
 
+CMakelists.txt
+==================
+- Current compile version is based on OpenCV 3.1.0 which should be installed.
+- Set `OpenCV_DIR` when there are different OpenCV version. This folder should include `OpenCVConfig.cmake.` 
+```
+set(OpenCV_DIR "/home/amax/Workspace/12.opencv_contrib/opencv/opencv3.0/share/OpenCV")
+```
+
+TODO
+=============
+- Other 
