@@ -1,0 +1,1 @@
+/home/amax/Workspace/12.opencv_contrib/aruco_standalone/build/CMakeFiles/create_marker.dir
